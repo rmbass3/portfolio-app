@@ -7,9 +7,9 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {
-
-    },
+    colors: {
+      'purple': '#9166FF'
+    }
   },
   plugins: [],
 }
